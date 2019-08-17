@@ -18,7 +18,7 @@ ENV NODE_ID=0                     \
     MYSQL_USER=123                 \
     MYSQL_PASS=123                 \
     MYSQL_DB=123          \
-    REDIRECT=127.0.0.1:1080           \
+    REDIRECT=bing.com           \
     FAST_OPEN=true
 
 COPY . /root/shadowsocks
