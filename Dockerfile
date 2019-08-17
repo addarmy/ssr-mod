@@ -19,7 +19,7 @@ ENV NODE_ID=0                     \
     MYSQL_PASS=123                 \
     MYSQL_DB=123          \
     REDIRECT=127.0.0.1:1080           \
-    FAST_OPEN=false
+    FAST_OPEN=true
 
 COPY . /root/shadowsocks
 WORKDIR /root/shadowsocks
